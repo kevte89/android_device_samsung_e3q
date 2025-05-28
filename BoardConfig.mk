@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := e3q
 TARGET_SCREEN_DENSITY := 600
 
 # Kernel
-TARGET_KERNEL_CONFIG += oem/e3q-lego.config
+TARGET_KERNEL_CONFIG := oem/e3q_defconfig
 
 # Include the proprietary files BoardConfig.
 include vendor/samsung/e3q/BoardConfigVendor.mk
