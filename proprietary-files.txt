@@ -86,9 +86,11 @@ vendor/lib64/libspatializerparamstorage.so
 vendor/lib64/libspeakercalibration.so
 vendor/lib64/libtensorflowlite_c.so
 vendor/lib64/libvui_intf.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
+vendor/lib64/vendor.qti.hardware.pal@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
@@ -1727,3 +1729,20 @@ vendor/bin/hw/vendor.samsung.hardware.security.widevine.keyprov-service
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk.so
+
+vendor/etc/vintf/manifest/manifest_non_qmaa.xml
+vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
+vendor/lib64/libagm_compress_plugin.so
+vendor/lib64/libagm_mixer_plugin.so
+vendor/lib64/libagm_pcm_plugin.so
+vendor/lib64/libagmmixer.so
+vendor/lib64/libaudiochargerlistener.so
+vendor/lib64/libbatterylistener.so
+vendor/lib64/libhfp_pal.so
+vendor/lib64/libfmpal.so
+vendor/lib64/libpalclient.so
+vendor/lib64/soundfx/libqcompostprocbundle.so
+vendor/lib64/soundfx/libqcomvisualizer.so
+vendor/lib64/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/libsndcardparser.so
+vendor/lib64/soundfx/libvolumelistener.so
