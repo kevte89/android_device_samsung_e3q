@@ -1746,3 +1746,5 @@ vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/libsndcardparser.so
 vendor/lib64/soundfx/libvolumelistener.so
+vendor/etc/audio/sku_pineapple/audio_effects.xml
+vendor/etc/audio/sku_pineapple/audio_effects.conf
