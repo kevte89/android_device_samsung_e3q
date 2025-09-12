@@ -261,11 +261,10 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
     vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE := \
-    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa.xml \
-    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa_extn.xml \
-    $(DEVICE_PATH)/configs/vintf/manifest.xml \
-    $(DEVICE_PATH)/configs/vintf/manifest_pineapple.xml \
+#DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest_non_qmaa.xml
+#DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest_non_qmaa_extn.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest_pineapple.xml
 
 # Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn

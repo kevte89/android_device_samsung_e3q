@@ -1730,8 +1730,6 @@ vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk.so
 
-vendor/etc/vintf/manifest/manifest_non_qmaa.xml
-vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
 vendor/lib64/libagm_compress_plugin.so
 vendor/lib64/libagm_mixer_plugin.so
 vendor/lib64/libagm_pcm_plugin.so
@@ -1749,3 +1747,13 @@ vendor/lib64/soundfx/libvolumelistener.so
 vendor/etc/audio/sku_pineapple/audio_effects.xml
 vendor/etc/audio/sku_pineapple/audio_effects.conf
 vendor/etc/media_codecs_c2_audio.xml
+
+vendor/lib64/libgralloccore.so
+vendor/lib64/libgrallocutils.so
+vendor/lib64/hw/gralloc.default.so
+vendor/lib64/libgralloc.qti.so
+vendor/lib64/hw/sound_trigger.primary.pineapple.so
+vendor/lib64/libagmclient.so
+
+vendor/etc/vintf/manifest/manifest_non_qmaa.xml
+vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
