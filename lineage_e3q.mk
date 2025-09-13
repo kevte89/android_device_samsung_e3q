@@ -26,4 +26,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="e3qxxx-user 15 AP3A.240905.015.A2 S928BXXU4BYD9 release-keys" \
     BuildFingerprint="samsung/e3qxxx/e3q:14/UP1A.231005.007/S928BXXU4BYD9:user/release-keys"
 
-
+# Keylayout: Volume-Tasten korrekt mappen
+PRODUCT_COPY_FILES += \
+    device/samsung/e3q/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl \
+    device/samsung/e3q/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_PRODUCT)/usr/keylayout/gpio-keys.kl
+# Optional (meist nicht nötig):
+#    device/samsung/e3q/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
