@@ -1603,8 +1603,7 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
-# USB
-vendor/bin/hw/android.hardware.usb-service.qti
+
 # Ultra-wideband
 vendor/etc/libuwb-nxp.conf
 # Vibration
@@ -1711,3 +1710,8 @@ vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_cdp.xml
 
 vendor/etc/situation_audio_policy_volumes_sec.xml
 vendor/etc/sec_audio_volume_curve.xml
+
+# USB HAL (QTI)
+vendor/bin/hw/android.hardware.usb-service.qti
+vendor/etc/init/android.hardware.usb-service.qti.rc
+vendor/etc/vintf/manifest/android.hardware.usb-service.qti.xml

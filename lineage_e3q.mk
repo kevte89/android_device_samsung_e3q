@@ -68,3 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/e3q/proprietary/vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/samsung/e3q/proprietary/vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/mixer_paths_cliffs_qrd.xml
 
+# Encryption/FBE deaktivieren
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.crypto.state=unsupported \
+    ro.crypto.type=none \
+    ro.crypto.encrypted=false \
+    ro.crypto.disable=1 \
+    ro.config.low_ram=false
