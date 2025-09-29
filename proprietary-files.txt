@@ -2,7 +2,6 @@
 
 # Current blobs with deps disabled:
 # com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, depend on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
-
 # ADSP
 vendor/bin/adsprpcd
 vendor/bin/audioadsprpcd
@@ -12,7 +11,6 @@ vendor/etc/init/vendor.qti.audio-adsprpc-service.rc
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libloadalgo_stub.so
-
 # ADSP modules
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libhme_dsp_skel.so
@@ -34,7 +32,6 @@ vendor/lib64/rfs/dsp/snap/libQnnHtpV75Skel.so:vendor/lib/rfsa/adsp/snap/libQnnHt
 vendor/lib64/snap/libQnnHtp.so
 vendor/lib64/snap/libQnnHtpV75Stub.so
 vendor/lib64/snap/libQnnSystem.so
-
 # Audio
 vendor/etc/LVACFS_Calibration.dat
 vendor/etc/LVACFS_Configuration.txt
@@ -93,7 +90,6 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
-
 # Audio configs
 vendor/etc/audio/sku_pineapple/mixer_paths.xml
 vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_cdp.xml
@@ -115,7 +111,6 @@ vendor/etc/mem_logger_config.xml
 vendor/etc/sec_audio_volume_curve.xml
 vendor/etc/situation_audio_policy_volumes_sec.xml
 vendor/etc/usecaseKvManager.xml
-
 # Audio FX modules
 vendor/lib64/lib_SamsungRec_08020.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
@@ -131,7 +126,6 @@ vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libswspatializer.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc
@@ -148,7 +142,6 @@ vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.audio-V2-ndk.so
 vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
-
 # Bluetooth (A2DP)
 #vendor/etc/vintf/manifest/bluetooth_audio.xml
 vendor/lib64/btaudio_offload_if.so
@@ -167,7 +160,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.audio-impl.so
-
 # Camera
 vendor/bin/hw/android.hardware.camera.provider-V1-external-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider-service_64
@@ -677,7 +669,6 @@ vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.samsung.hardware.camera.device-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.camera.provider-V1-ndk.so
-
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
 vendor/firmware/CAMERA_ICP.b01
@@ -704,7 +695,6 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -713,10 +703,8 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
-
 # Charger
 vendor/etc/charger_fw_fstab.qti
-
 # CNE
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
@@ -755,12 +743,10 @@ vendor/lib64/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.latency@2.1.so
 vendor/lib64/vendor.qti.latency@2.2.so
 vendor/lib64/vendor.qti.latencyaidlservice-V1-ndk.so
-
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-
 # Connection Security
 vendor/bin/qwesd
 vendor/bin/ssgtzd
@@ -770,10 +756,8 @@ vendor/etc/seccomp_policy/qwesd@2.0.policy
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/lib64/libtaautoload.so
-
 # CVP
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
-
 # CVP firmware
 vendor/firmware/evass.b00
 vendor/firmware/evass.b01
@@ -797,7 +781,6 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-
 # Data
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
@@ -825,7 +808,6 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
 vendor/lib64/vendor.qti.hardware.radio.atfwd-V1-ndk.so
-
 # Diag
 vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
@@ -833,7 +815,6 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/libdiag.so
 vendor/lib64/libqsocket.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
-
 # Display
 vendor/bin/hw/vendor.qti.hardware.display.color-service
 vendor/bin/ppd
@@ -886,7 +867,6 @@ vendor/lib64/vendor.display.color@1.3.so
 vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
-
 # Display configs
 vendor/etc/display/DPU10__.xml
 vendor/etc/display/DPU9__.xml
@@ -914,18 +894,15 @@ vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_w
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json
-
 # Dolby
 vendor/etc/dax3_media_codecs_dolby_audio.xml
 vendor/etc/dolby/dax-default.xml
 vendor/etc/media_codecs_dolby_audio.xml
-
 # DSP
 vendor/bin/dspservice
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
-
 # DPM
 system_ext/etc/dpm/dpm.conf
 vendor/etc/dpm_vndr/vendor.dpm.conf
@@ -934,7 +911,6 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.dpmservice@1.0.so
 vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so
-
 # DRK
 vendor/bin/hw/vendor.samsung.hardware.security.drk-service
 vendor/etc/init/vendor.samsung.hardware.security.drk-service.rc
@@ -942,12 +918,10 @@ vendor/etc/vintf/manifest/drk_manifest.xml
 vendor/lib64/libdk_vnd_service_core.so
 vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
-
 # DRM
 vendor/lib64/liboemcrypto.so
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
-
 # DRM (Qualcomm Secure Execution Environment)
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/qseecomd
@@ -959,7 +933,6 @@ vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/vendor.qti.hardware.qseecom-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-
 # EVA
 vendor/etc/eva/facedetection/bias.dat
 vendor/etc/eva/facedetection/weight.dat
@@ -977,7 +950,6 @@ vendor/etc/eva/itof/tuning_params_sensor_type_1.json
 vendor/lib64/libcv_common.so
 vendor/lib64/libeva.so
 vendor/lib64/libeva_util.so
-
 # Fingerprint
 vendor/etc/init/init.fingerprint.rc
 vendor/lib64/libegis_fp_normal_sensor_test.so
@@ -986,7 +958,6 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsfp_sensor.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so
-
 # Firmware
 vendor/etc/secnvm/k250a_47000400_0.img
 vendor/etc/secnvm/k250a_47000403_1.img
@@ -1103,11 +1074,9 @@ vendor/lib64/bm4a73v08s12n59.bin
 vendor/lib64/bm4a73v08s12n60.bin
 vendor/lib64/bm4a73v08s12n61.bin
 vendor/lib64/bm4a73v08s12n62.bin
-
 # Floating feature
 vendor/etc/floating_feature.xml
 vendor/lib64/libfloatingfeature.so
-
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-service
 vendor/bin/hw/vendor.qti.hardware.secureprocessor@1.0
@@ -1123,7 +1092,6 @@ vendor/lib64/vendor.qti.hardware.secureprocessor.common@1.0-helper.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.common@1.0.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so
 vendor/lib64/vendor.qti.hardware.secureprocessor.device@1.0.so
-
 # GNSS
 vendor/bin/hw/android.hardware.gnss-aidl-service-qti
 vendor/bin/loc_launcher
@@ -1184,7 +1152,6 @@ vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss-V5-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
 vendor/lib64/vendor.samsung.hardware.gnss-V2-ndk_platform.so
-
 # Graphics
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
@@ -1205,7 +1172,6 @@ vendor/lib64/libkernelmanager.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
-
 # Hermes
 vendor/bin/hermesd
 vendor/bin/hw/vendor.samsung.hardware.security.hermes-service
@@ -1219,15 +1185,12 @@ vendor/lib64/libhwvault.so
 vendor/lib64/libisosechw.so
 vendor/lib64/libshctrl.so
 vendor/lib64/vendor.samsung.hardware.security.hermes-V1-ndk.so
-
 # Health
 vendor/bin/hw/vendor.samsung.hardware.health-service
 vendor/etc/init/vendor.samsung.hardware.health-service.rc
 vendor/lib64/vendor.samsung.hardware.health-V1-ndk.so
-
 # HyPer
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk.so
-
 # Media
 #vendor/bin/init.qti.media.sh
 system_ext/lib64/libmmosal.so
@@ -1305,23 +1268,18 @@ vendor/lib64/libvideotxr.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 vendor/lib64/vendor.samsung.hardware.media.mpp-V5-ndk.so
 vendor/lib64/vintf-codecsolution-V2-ndk.so
-
 # Memory
 vendor/lib64/libvmmem.so
-
 # NFC
 vendor/etc/libnfc-nxp.conf
 vendor/etc/nfc/libnfc-nxp_RF.conf
 vendor/firmware/nfc/libsn300u_fw.so
-
 # NVM
 vendor/bin/sec_nvm
 vendor/bin/spdaemon
 vendor/etc/init/init.spdaemon.rc
-
 # PASR
 vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so
-
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf2-hal-service
 vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc
@@ -1348,21 +1306,17 @@ vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.perf2-V1-ndk.so
-
 # PD
 vendor/bin/pd-mapper
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
-
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
-
 # Protobuf
 vendor/lib64/libprotobuf-cpp-full-21.7.so
 vendor/lib64/libprotobuf-cpp-lite-21.7.so
-
 # QCC
 vendor/bin/qcc-vendor
 vendor/etc/init/init.qccvendor.rc
@@ -1375,18 +1329,15 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 vendor/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
 vendor/lib64/vendor.qti.qccvndhal_aidl-halimpl.so
-
 # QSEECOM
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libqisl.so
 vendor/lib64/libspl.so
-
 # QSPM
 vendor/lib64/libqspm-mem-utils-vendor.so
 vendor/lib64/vendor.qti.qspmhal-V1-ndk.so
-
 # QMI
 #vendor/bin/init.qti.write.sh
 vendor/bin/qcom-system-daemon
@@ -1413,14 +1364,12 @@ vendor/lib64/libqrtr.so
 vendor/lib64/libsmemlog.so
 vendor/lib64/libsubsystem_control.so
 vendor/lib64/libsystem_health_mon.so
-
 # Remoteproc
 vendor/bin/rmt_storage
 vendor/bin/tftp_server
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.smp2p.rc
 vendor/etc/init/vendor.qti.tftp.rc
-
 # RIL
 #vendor/lib64/vendor.samsung.hardware.radio.network-V1-ndk.so
 vendor/bin/hw/rild
@@ -1470,11 +1419,9 @@ vendor/lib64/vendor.samsung.hardware.radio.channel-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.radio.data-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.radio.messaging-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.radio.sim-V1-ndk.so
-
 # RIL - UIM
 product/etc/permissions/UimService.xml
 product/framework/uimservicelibrary.jar
-
 # seccomp policies
 vendor/etc/seccomp_policy/c2audio.vendor.base-arm.policy
 vendor/etc/seccomp_policy/c2audio.vendor.base-arm64.policy
@@ -1491,7 +1438,6 @@ vendor/etc/seccomp_policy/qsap_voiceui.policy
 vendor/etc/seccomp_policy/wfdhdcphalservice.policy
 vendor/etc/seccomp_policy/wfdvndservice.policy
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy
-
 # Secure element
 #vendor/etc/vintf/manifest/vendor.samsung.hardware.security.sem-manifest.xml
 vendor/bin/hw/android.hardware.secure_element-service.nxp
@@ -1507,7 +1453,6 @@ vendor/lib64/libsec_semHalTlc.so
 vendor/lib64/libsemnativecarrierfeature.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.sem-V1-ndk.so
-
 # Security
 #vendor/etc/vintf/manifest/vendor.samsung.hardware.security.skpm-manifest.xml
 #vendor/lib64/android.hardware.keymaster-V4-ndk.so;MODULE_SUFFIX=_vendor
@@ -1536,12 +1481,10 @@ vendor/lib64/libspukeymintdeviceutils.so
 vendor/lib64/libspukeymintutils.so
 vendor/lib64/vendor.samsung.hardware.keymint-V3-ndk.so
 vendor/lib64/vendor.samsung.hardware.security.skpm-V1-ndk.so
-
 # SMC Invoke
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libqcbor.so
-
 # Sensors
 #vendor/bin/init.qcom.sensors.sh
 vendor/bin/factory.ssc
@@ -1610,18 +1553,15 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.flicker.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.qsh.so
-
 # SSR
 vendor/bin/ssr_diag
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
-
 # TEE
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libsfp_teegw.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
-
 # Thermal
 vendor/bin/hw/vendor.samsung.hardware.thermal-service
 vendor/etc/btcon.json
@@ -1634,13 +1574,11 @@ vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal-default.xml
 vendor/lib64/libthermalclient.so
 vendor/lib64/service-listener-ext-aidl-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.thermal-V1-ndk.so
-
 # Time services
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
-
 # Trusted User Interface
 vendor/bin/hw/vendor.qti.hardware.trustedui-aidl-service-qti
 vendor/bin/hw/vendor.qti.hardware.trustedui@1.0-service-qti
@@ -1665,20 +1603,16 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
-
 # USB
 vendor/bin/hw/android.hardware.usb-service.qti
-
 # Ultra-wideband
 vendor/etc/libuwb-nxp.conf
-
 # Vibration
 vendor/bin/hw/vendor.samsung.hardware.vibrator-service
 vendor/etc/Hapticsconfig.xml
 vendor/etc/init/vendor.samsung.hardware.vibrator-default.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml
 vendor/lib64/vendor.samsung.hardware.vibrator-V5-ndk.so
-
 # Wi-Fi
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag;DISABLE_DEPS
@@ -1693,7 +1627,6 @@ vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-
 # Wi-Fi Display
 vendor/bin/wifidisplayhalservice
 vendor/etc/wfdconfig.xml
@@ -1723,13 +1656,11 @@ vendor/lib64/libwfduibcsrcinterface_vendor.so
 vendor/lib64/libwfdutils_proprietary.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
-
 # Widevine DRM
 vendor/bin/hw/vendor.samsung.hardware.security.widevine.keyprov-service
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk.so
-
 vendor/lib64/libagm_compress_plugin.so
 vendor/lib64/libagm_mixer_plugin.so
 vendor/lib64/libagm_pcm_plugin.so
@@ -1747,13 +1678,36 @@ vendor/lib64/soundfx/libvolumelistener.so
 vendor/etc/audio/sku_pineapple/audio_effects.xml
 vendor/etc/audio/sku_pineapple/audio_effects.conf
 vendor/etc/media_codecs_c2_audio.xml
-
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/hw/sound_trigger.primary.pineapple.so
 vendor/lib64/libagmclient.so
-
 vendor/etc/vintf/manifest/manifest_non_qmaa.xml
 vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
+system/etc/init/hw/init.usb.rc
+system/etc/init/hw/init.usb.configfs.rc
+system/etc/init/usbd.rc
+vendor/etc/init/hw/init.qcom.usb.rc
+vendor/etc/init/android.hardware.usb-service.qti.rc
+vendor/etc/ueventd.rc
+
+# Audio policy & volumes
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_policy_configuration_base.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/default_volume_tables.xml
+
+# Mixer paths (alle, die es im Dump gibt)
+vendor/etc/audio/sku_pineapple/mixer_paths.xml
+vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_mtp.xml
+vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_qrd.xml
+vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_cdp.xml
+vendor/etc/audio/sku_pineapple/mixer_paths_pineapple_qrd_sku2.xml
+vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml
+vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_qrd.xml
+vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_cdp.xml
+
+vendor/etc/situation_audio_policy_volumes_sec.xml
+vendor/etc/sec_audio_volume_curve.xml
