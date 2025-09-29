@@ -363,3 +363,8 @@ vendor.spu.rkp_enabled=false
 vendor.wv.oemcrypto.debug.enable_external_display_check=1
 vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
 
+# USB / MTP defaults
+sys.usb.configfs=1
+persist.sys.usb.config=mtp,adb
+persist.vendor.usb.config=mtp,adb
+persist.vendor.usb.configfs=1

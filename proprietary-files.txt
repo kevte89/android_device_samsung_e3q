@@ -1715,3 +1715,16 @@ vendor/etc/sec_audio_volume_curve.xml
 vendor/bin/hw/android.hardware.usb-service.qti
 vendor/etc/init/android.hardware.usb-service.qti.rc
 vendor/etc/vintf/manifest/android.hardware.usb-service.qti.xml
+
+# Bluetooth Permissions
+vendor/etc/permissions/android.hardware.bluetooth.xml
+vendor/etc/permissions/android.hardware.bluetooth_le.xml
+
+# Bluetooth Policy
+vendor/etc/bluetooth_audio_policy_configuration.xml
+vendor/etc/bluetooth_qti_audio_policy_configuration.xml
+
+# Bluetooth Audio HAL
+vendor/lib64/hw/audio.bluetooth.default.so
+
+
