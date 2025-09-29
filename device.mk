@@ -404,3 +404,10 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/e3q/e3q-vendor.mk)
+
+# MatLog (Logcat viewer)
+PRODUCT_PACKAGES += \
+    Matlog
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/matlog/privapp-permissions-matlog.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-matlog.xml

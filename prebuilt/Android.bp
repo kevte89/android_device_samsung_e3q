@@ -1,0 +1,6 @@
+android_app_import {
+    name: "Matlog",
+    apk: "Matlog.apk",
+    privileged: true,   // landet in /system/priv-app
+    presigned: true,    // APK unverändert übernehmen
+}
