@@ -75,3 +75,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.encrypted=false \
     ro.crypto.disable=1 \
     ro.config.low_ram=false
+WITH_GMS := true
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
