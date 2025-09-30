@@ -1724,7 +1724,5 @@ vendor/etc/permissions/android.hardware.bluetooth_le.xml
 vendor/etc/bluetooth_audio_policy_configuration.xml
 vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 
-# Bluetooth Audio HAL
-vendor/lib64/hw/audio.bluetooth.default.so
-
-
+system_ext/bin/usbudev
+system_ext/etc/init/usbudev.rc

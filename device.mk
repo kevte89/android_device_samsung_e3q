@@ -424,3 +424,5 @@ PRODUCT_COPY_FILES += \
 # De-dupe: wir benutzen das Vendor-BT-Audio, nicht die AOSP-AIDL-Impl
 PRODUCT_PACKAGES -= \
     android.hardware.bluetooth.audio-impl
+
+PRODUCT_SOONG_NAMESPACES += vendor/gapps

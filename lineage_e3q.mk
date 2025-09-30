@@ -77,3 +77,28 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.low_ram=false
 WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Include MindTheGapps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
+# --- MindTheGapps: zwingend benötigte Kernpakete ---
+PRODUCT_PACKAGES += \
+    SetupWizard \
+
+# Zieh die kompletten GApps ausdrücklich
+PRODUCT_PACKAGES += \
+    Phonesky \
+    Velvet \
+    GmsCore \
+    GoogleServicesFramework \
+    SetupWizard \
+    GooglePartnerSetup \
+    GoogleRestore \
+    GoogleCalendarSyncAdapter \
+    GoogleContactsSyncAdapter \
+    GoogleFeedback \
+    SpeechServicesByGoogle \
+    MarkupGoogle_v2 \
+    PrebuiltExchange3Google
+
+PRODUCT_PACKAGES += usbudev
