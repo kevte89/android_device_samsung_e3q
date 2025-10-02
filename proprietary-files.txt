@@ -961,7 +961,7 @@ vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so
 # Firmware
 vendor/etc/secnvm/k250a_47000400_0.img
 vendor/etc/secnvm/k250a_47000403_1.img
-vendor/etc/secnvm/k250a_47000406_f.img
+vendor/etc/secnvm/k250a_47000407_c.img
 vendor/firmware/00_generic_xtalk_shape.bin
 vendor/firmware/Data.msc
 vendor/firmware/E3_S6E3HAE_AMB681AZ01.dat
@@ -1726,3 +1726,4 @@ vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 
 system_ext/bin/usbudev
 system_ext/etc/init/usbudev.rc
+vendor/lib64/vendor.samsung.hardware.radio.network-V1-ndk.so
