@@ -83,11 +83,8 @@ vendor/lib64/libspatializerparamstorage.so
 vendor/lib64/libspeakercalibration.so
 vendor/lib64/libtensorflowlite_c.so
 vendor/lib64/libvui_intf.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
-vendor/lib64/vendor.qti.hardware.pal@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 # Audio configs
@@ -1371,7 +1368,6 @@ vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.smp2p.rc
 vendor/etc/init/vendor.qti.tftp.rc
 # RIL
-#vendor/lib64/vendor.samsung.hardware.radio.network-V1-ndk.so
 vendor/bin/hw/rild
 vendor/bin/irsc_util
 vendor/bin/ks
@@ -1662,7 +1658,6 @@ vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-serv
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk.so
 vendor/lib64/libagm_compress_plugin.so
 vendor/lib64/libagm_mixer_plugin.so
-vendor/lib64/libagm_pcm_plugin.so
 vendor/lib64/libagmmixer.so
 vendor/lib64/libaudiochargerlistener.so
 vendor/lib64/libbatterylistener.so
@@ -1682,7 +1677,6 @@ vendor/lib64/libgrallocutils.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/hw/sound_trigger.primary.pineapple.so
-vendor/lib64/libagmclient.so
 vendor/etc/vintf/manifest/manifest_non_qmaa.xml
 vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml
 system/etc/init/hw/init.usb.rc
@@ -1726,4 +1720,4 @@ vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 
 system_ext/bin/usbudev
 system_ext/etc/init/usbudev.rc
-vendor/lib64/vendor.samsung.hardware.radio.network-V1-ndk.so
+
