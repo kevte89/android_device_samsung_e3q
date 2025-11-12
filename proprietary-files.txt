@@ -53,7 +53,6 @@ vendor/lib64/libFlacSwDec.so
 vendor/lib64/libVoiceSdk.so
 vendor/lib64/lib_lvacfs.so
 vendor/lib64/libadm.so
-vendor/lib64/libagm.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
@@ -1656,9 +1655,6 @@ vendor/bin/hw/vendor.samsung.hardware.security.widevine.keyprov-service
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk.so
-vendor/lib64/libagm_compress_plugin.so
-vendor/lib64/libagm_mixer_plugin.so
-vendor/lib64/libagmmixer.so
 vendor/lib64/libaudiochargerlistener.so
 vendor/lib64/libbatterylistener.so
 vendor/lib64/libhfp_pal.so
@@ -1721,3 +1717,4 @@ vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 system_ext/bin/usbudev
 system_ext/etc/init/usbudev.rc
 
+vendor/lib64/libagm.so
