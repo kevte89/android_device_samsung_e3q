@@ -289,3 +289,9 @@ include vendor/samsung/e3q/BoardConfigVendor.mk
 #BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 64M
 #BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 64M
 #BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 64M
+
+# Use vendor-prebuilt libar-pal; disable CAF libar-pal
+TARGET_PROVIDES_LIBAR_PAL := true
+
+# Disable CAF libaudiochargerlistener (use vendor prebuilt instead)
+TARGET_PROVIDES_LIBAUDIOCHARGERLISTENER := true

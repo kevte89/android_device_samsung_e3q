@@ -53,10 +53,8 @@ vendor/lib64/libFlacSwDec.so
 vendor/lib64/libVoiceSdk.so
 vendor/lib64/lib_lvacfs.so
 vendor/lib64/libadm.so
-vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
 vendor/lib64/libarmemlog.so
 vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
@@ -65,9 +63,7 @@ vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
 vendor/lib64/libcapiv2udk7vendor.so
 vendor/lib64/libcapiv2uvvendor.so
-vendor/lib64/libcustomva_intf.so
 vendor/lib64/libdsd2pcm.so
-vendor/lib64/libhotword_intf.so
 vendor/lib64/liblistensoundmodel2vendor.so
 vendor/lib64/liblx-ar_util.so
 vendor/lib64/liblx-osal.so
@@ -130,9 +126,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so
-vendor/lib64/lib_bt_aptx.so
-vendor/lib64/lib_bt_ble.so
-vendor/lib64/lib_bt_bundle.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
@@ -1655,16 +1648,6 @@ vendor/bin/hw/vendor.samsung.hardware.security.widevine.keyprov-service
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk.so
-vendor/lib64/libaudiochargerlistener.so
-vendor/lib64/libbatterylistener.so
-vendor/lib64/libhfp_pal.so
-vendor/lib64/libfmpal.so
-vendor/lib64/libpalclient.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/libsndcardparser.so
-vendor/lib64/soundfx/libvolumelistener.so
 vendor/etc/audio/sku_pineapple/audio_effects.xml
 vendor/etc/audio/sku_pineapple/audio_effects.conf
 vendor/etc/media_codecs_c2_audio.xml
@@ -1718,3 +1701,5 @@ system_ext/bin/usbudev
 system_ext/etc/init/usbudev.rc
 
 vendor/lib64/libagm.so
+vendor/lib64/libar-acdb.so
+vendor/lib64/libar-pal.so
