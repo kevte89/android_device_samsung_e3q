@@ -1703,3 +1703,4 @@ system_ext/etc/init/usbudev.rc
 vendor/lib64/libagm.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-pal.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
