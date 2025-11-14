@@ -368,3 +368,4 @@ sys.usb.configfs=1
 persist.sys.usb.config=mtp,adb
 persist.vendor.usb.config=mtp,adb
 persist.vendor.usb.configfs=1
+

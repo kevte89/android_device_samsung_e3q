@@ -55,14 +55,14 @@ PRODUCT_PACKAGES += \
     libsndcardparser \
     libtinycompress \
     libvolumelistener \
-    #sound_trigger.primary.pineapple
+    sound_trigger.primary.pineapple
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8650/audio/primary-hal
 AUDIO_PAL_DIR := hardware/qcom-caf/sm8650/audio/pal
 
 PRODUCT_COPY_FILES += \
-    #$(AUDIO_HAL_DIR)/configs/pineapple/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.conf \
-    #$(AUDIO_HAL_DIR)/configs/pineapple/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.xml \
+    $(AUDIO_HAL_DIR)/configs/pineapple/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.conf \
+    $(AUDIO_HAL_DIR)/configs/pineapple/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.xml \
     $(AUDIO_HAL_DIR)/configs/pineapple/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration_base.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple_qssi/audio_policy_configuration.xml \
@@ -182,7 +182,7 @@ PRODUCT_PACKAGES += \
     libpalclient
 
 PRODUCT_COPY_FILES += \
-    #$(AUDIO_HAL_DIR)/configs/common/codec2/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
+    $(AUDIO_HAL_DIR)/configs/common/codec2/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
     $(AUDIO_HAL_DIR)/configs/common/codec2/service/1.0/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
     $(AUDIO_HAL_DIR)/configs/common/codec2/service/1.0/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 
@@ -242,8 +242,8 @@ PRODUCT_PACKAGES += \
     librilutils \
     libnetutils.vendor \
     secril_config_svc \
-    sehradiomanager
-    #libsecril-client \
+    sehradiomanager 
+    #libsecril-client 
 
 # Rootdir
 PRODUCT_PACKAGES += \
@@ -302,9 +302,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/fstab.qcom
 
 # Sensors
-#PRODUCT_PACKAGES += \
-#    android.hardware.sensors-service.samsung-multihal \
-#    sensors.dynamic_sensor_hal
+PRODUCT_PACKAGES += \
+    #android.hardware.sensors-service.samsung-multihal \
+    sensors.dynamic_sensor_hal
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
@@ -374,7 +374,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
 # Vibrator
-#PRODUCT_PACKAGES += \
+ PRODUCT_PACKAGES += \
     #android.hardware.vibrator-service.samsung
 
 # VNDK
@@ -426,3 +426,4 @@ PRODUCT_PACKAGES -= \
     android.hardware.bluetooth.audio-impl
 
 PRODUCT_SOONG_NAMESPACES += vendor/gapps
+
