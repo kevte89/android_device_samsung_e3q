@@ -68,37 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/e3q/proprietary/vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/samsung/e3q/proprietary/vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/mixer_paths_cliffs_qrd.xml
 
-# Encryption/FBE deaktivieren
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.crypto.state=unsupported \
-    ro.crypto.type=none \
-    ro.crypto.encrypted=false \
-    ro.crypto.disable=1 \
-    ro.config.low_ram=false
-WITH_GMS := true
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-# Include MindTheGapps
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
-# --- MindTheGapps: zwingend benötigte Kernpakete ---
-PRODUCT_PACKAGES += \
-    SetupWizard \
-
-# Zieh die kompletten GApps ausdrücklich
-PRODUCT_PACKAGES += \
-    Phonesky \
-    Velvet \
-    GmsCore \
-    GoogleServicesFramework \
-    SetupWizard \
-    GooglePartnerSetup \
-    GoogleRestore \
-    GoogleCalendarSyncAdapter \
-    GoogleContactsSyncAdapter \
-    GoogleFeedback \
-    SpeechServicesByGoogle \
-    MarkupGoogle_v2 \
-    PrebuiltExchange3Google
-
 PRODUCT_PACKAGES += usbudev
+
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)

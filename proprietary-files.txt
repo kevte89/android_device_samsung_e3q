@@ -950,7 +950,7 @@ vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so
 # Firmware
 vendor/etc/secnvm/k250a_47000400_0.img
 vendor/etc/secnvm/k250a_47000403_1.img
-vendor/etc/secnvm/k250a_47000407_c.img
+vendor/etc/secnvm/k250a_47000406_f.img
 vendor/firmware/00_generic_xtalk_shape.bin
 vendor/firmware/Data.msc
 vendor/firmware/E3_S6E3HAE_AMB681AZ01.dat
@@ -1700,15 +1700,15 @@ vendor/etc/bluetooth_qti_audio_policy_configuration.xml
 system_ext/bin/usbudev
 system_ext/etc/init/usbudev.rc
 
-vendor/lib64/libagm.so
+vendor/lib64/libagm.so;DISABLE_CHECKELF
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-pal.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libsndcardparser.so
-vendor/lib64/libagm_compress_plugin.so
-vendor/lib64/libagm_mixer_plugin.so
-vendor/lib64/libagm_pcm_plugin.so
+vendor/lib64/libagm_compress_plugin.so;DISABLE_CHECKELF
+vendor/lib64/libagm_mixer_plugin.so;DISABLE_CHECKELF
+vendor/lib64/libagm_pcm_plugin.so;DISABLE_CHECKELF
 vendor/lib64/libagmmixer.so
 
 vendor/bin/hw/samsung.software.media.c2@1.0-service
