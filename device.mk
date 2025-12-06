@@ -352,11 +352,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.systemhelper@1.0.vendor
 
 # USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti \
-    android.hardware.usb.gadget-service.qti \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh
+#PRODUCT_PACKAGES += \
+#    android.hardware.usb-service.qti \
+#    android.hardware.usb.gadget-service.qti \
+#    init.qcom.usb.rc \
+#    init.qcom.usb.sh
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
@@ -427,3 +427,8 @@ PRODUCT_PACKAGES -= \
 
 PRODUCT_SOONG_NAMESPACES += vendor/gapps
 
+# Fingerprint AIDL HAL
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.common-V2-ndk.vendor \
+    android.hardware.biometrics.fingerprint-V2-ndk.vendor \
+    android.hardware.biometrics.fingerprint-service.samsung
