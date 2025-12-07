@@ -77,7 +77,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.usbcontroller=a600000.dwc3 \
     androidboot.load_modules_parallel=false \
     androidboot.hypervisor.protected_vm.supported=true \
-  #  androidboot.selinux=permissive \
+    androidboot.selinux=permissive \
     aosp_is_booting \
     firmware_class.path=/vendor/firmware_mnt/image \
     loop.max_part=7 \
@@ -91,7 +91,7 @@ BOARD_BOOTCONFIG := \
     androidboot.usbcontroller=a600000.dwc3 \
     androidboot.load_modules_parallel=false \
     androidboot.hypervisor.protected_vm.supported=true \
-  #  androidboot.selinux=permissive
+    androidboot.selinux=permissive
 
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_BASE := 0x00000000
