@@ -80,7 +80,6 @@ vendor/lib64/libtensorflowlite_c.so
 vendor/lib64/libvui_intf.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 # Audio configs
 vendor/etc/audio/sku_pineapple/mixer_paths.xml
@@ -1703,6 +1702,7 @@ system_ext/etc/init/usbudev.rc
 vendor/lib64/libagm.so;DISABLE_CHECKELF
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-pal.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libsndcardparser.so
@@ -1713,3 +1713,15 @@ vendor/lib64/libagmmixer.so
 
 vendor/bin/hw/samsung.software.media.c2@1.0-service
 vendor/etc/init/samsung.software.media.c2@1.0-service.rc
+vendor/lib64/vendor.qti.hardware.pal@1.0.so
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+
+vendor/lib64/libaudiochargerlistener.so
+vendor/lib64/libbatterylistener.so
+vendor/lib64/libfmpal.so
+vendor/lib64/libhfp_pal.so
+vendor/lib64/libpalclient.so
+vendor/lib64/soundfx/libqcompostprocbundle.so
+vendor/lib64/soundfx/libqcomvisualizer.so
+vendor/lib64/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/soundfx/libvolumelistener.so

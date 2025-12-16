@@ -57,26 +57,6 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.pineapple
 
-AUDIO_HAL_DIR := hardware/qcom-caf/sm8650/audio/primary-hal
-AUDIO_PAL_DIR := hardware/qcom-caf/sm8650/audio/pal
-
-PRODUCT_COPY_FILES += \
-    $(AUDIO_HAL_DIR)/configs/pineapple/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.conf \
-    $(AUDIO_HAL_DIR)/configs/pineapple/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.xml \
-    $(AUDIO_HAL_DIR)/configs/pineapple/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
-    $(LOCAL_PATH)/configs/audio/audio_policy_configuration_base.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple_qssi/audio_policy_configuration.xml \
-    $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml
-
-PRODUCT_COPY_FILES += \
-    frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
-    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
-    frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
-    frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
@@ -180,11 +160,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libpalclient
-
-PRODUCT_COPY_FILES += \
-    $(AUDIO_HAL_DIR)/configs/common/codec2/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    $(AUDIO_HAL_DIR)/configs/common/codec2/service/1.0/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
-    $(AUDIO_HAL_DIR)/configs/common/codec2/service/1.0/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 
 # Memtrack
 PRODUCT_PACKAGES += \
@@ -432,3 +407,13 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.common-V2-ndk.vendor \
     android.hardware.biometrics.fingerprint-V2-ndk.vendor \
     android.hardware.biometrics.fingerprint-service.samsung
+
+PRODUCT_COPY_FILES += \
+    device/samsung/e3q/audio/sku_pineapple/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_effects.conf \
+    device/samsung/e3q/audio/sku_cliffs/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/audio_effects.conf
+
+# Codec2 audio (Samsung vendor)
+PRODUCT_COPY_FILES += \
+    device/samsung/e3q/media/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
+    device/samsung/e3q/seccomp/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
+    device/samsung/e3q/seccomp/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy

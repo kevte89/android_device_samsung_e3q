@@ -70,4 +70,3 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += usbudev
 
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
